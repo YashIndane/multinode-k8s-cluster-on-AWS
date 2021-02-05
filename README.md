@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/%E2%9A%99%EF%B8%8FAnsible-2.10.3-blue)
 
-[](images/4.png)
+![](images/4.png)
 
 ## Ansible Roles 
 Total 3 roles have been used to achieve this
