@@ -1,1 +1,1 @@
-# multinode-k8s-cluster-on-AWS
+# Kubernetes multinode cluster over AWS
