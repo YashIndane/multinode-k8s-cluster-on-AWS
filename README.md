@@ -24,4 +24,12 @@ Description for role variables used in launch_instances role ->
 | kube_worker_name1 | name of ec2 instance for worker 1 |
 | kube_worker_name2 | name of ec2 instance for worker 2 |
 
+create a file named `setup.yml` in your machine, write inside this (before running every role) ->
+
+```
+- hosts: <host-name>
+  roles:
+  - role: <path-to-your-role-folder >
+```
+
 
