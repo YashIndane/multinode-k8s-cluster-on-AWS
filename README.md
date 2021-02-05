@@ -60,5 +60,11 @@ become_method = sudo
 become_ask_pass = False
 ```
 
+### Run the roles by
+
+```
+ansible-playbook <path-of-your-setup.yml>
+```
+
 
 
