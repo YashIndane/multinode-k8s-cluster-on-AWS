@@ -72,5 +72,11 @@ become_ask_pass = False
 ansible-playbook <path-of-your-setup.yml>
 ```
 
+### Generate the token by
+
+```
+kubeadm token create --print-join-command
+```
+
 
 
