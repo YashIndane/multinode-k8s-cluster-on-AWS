@@ -32,4 +32,10 @@ create a file named `setup.yml` in your machine, write inside this (before runni
   - role: <path-to-your-role-folder >
 ```
 
+Now set the roles path
+
+```
+ansible-playbook <setup.yml file-location> --roles-path <path-to-your-role-folder >
+```
+
 
