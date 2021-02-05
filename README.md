@@ -26,6 +26,10 @@ Description for role variables used in launch_instances role ->
 | kube_worker_name1 | name of ec2 instance for worker 1 |
 | kube_worker_name2 | name of ec2 instance for worker 2 |
 
+Write correct device name according to image used 
+
+![](images/5.png)
+
 Have minimum 8 Gib of volume for each node
 
 ### Configuring setup.yml file
