@@ -1,3 +1,27 @@
 # Kubernetes multinode cluster over AWS
 
 ![](https://img.shields.io/badge/%E2%9A%99%EF%B8%8FAnsible-2.10.3-blue)
+
+## Ansible Roles 
+Total 3 roles have been used to achieve this
+
+### Launching the ec2-instances
+
+Description for role variables used in launch_instances role ->
+
+| Variable | description |
+| -------- | ----------- |
+| reg      | region      |
+| img_id   | image id    |
+| i_type   | instance type |
+| vpcsi    | vpc-subnet id |
+| key      | key name for instance |
+| sg_group | security group name   |
+| kube_master_name | name of ec2 instance for master |
+| aws_ak   | AWS access key |
+| aws_sk   | AWS secret key |
+| vol_size | volume size for instance (in Gib) |
+| kube_worker_name1 | name of ec2 instance for worker 1 |
+| kube_worker_name2 | name of ec2 instance for worker 2 |
+
+
