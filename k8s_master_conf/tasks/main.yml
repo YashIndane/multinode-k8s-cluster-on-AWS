@@ -78,7 +78,7 @@
     
 
   loop:
-  - { command: "kubeadm init --pod-network-cidr=9.91.0.0/16 --ignore-preflight-errors=NumCPU --ignore-preflight-errors=Mem" }
+  - { command: "kubeadm init --pod-network-cidr=<cidr-block> --ignore-preflight-errors=NumCPU --ignore-preflight-errors=Mem" }
   - { command: "mkdir -p $HOME/.kube" }
   - { command: "sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config" }
   - { command: "sudo chown $(id -u):$(id -g) $HOME/.kube/config" }
