@@ -4,7 +4,7 @@
 
 ![](images/4.png)
 
-Link to article ![Article](https://www.linkedin.com/posts/yash-indane-aa6534179_vimaldaga-righteducation-educationredefine-activity-6763765795467104257-_Su7)
+Link to article -> [Article](https://www.linkedin.com/posts/yash-indane-aa6534179_vimaldaga-righteducation-educationredefine-activity-6763765795467104257-_Su7)
 
 ## Ansible Roles 
 Total 3 roles have been used to achieve this
