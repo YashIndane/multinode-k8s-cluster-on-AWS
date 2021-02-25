@@ -83,6 +83,3 @@ ansible-playbook <path-of-your-setup.yml>
 ```
 kubeadm token create --print-join-command
 ```
-
-
-
