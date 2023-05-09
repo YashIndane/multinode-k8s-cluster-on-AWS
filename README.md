@@ -20,7 +20,7 @@ $ sudo chmod 400 <PRIVATE-KEY.pem>
 
 #### Copy the ansible.cfg in this repository to /etc/ansible, and configure it accordingly.
 ```
-$ sudo mkdir /etc/ansible && sudo cp ansible.cfg /etc/ansible
+$ sudo mkdir /etc/ansible && sudo mv ansible.cfg /etc/ansible
 ```
 
 #### Launch the EC2 nodes -
