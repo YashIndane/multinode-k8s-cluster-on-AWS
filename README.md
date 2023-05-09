@@ -9,6 +9,8 @@ Link to article -> [Article](https://www.linkedin.com/posts/yash-indane-aa653417
 ## Ansible Roles 
 Total 3 roles have been used to achieve this, `k8s_master_conf`, `k8s_worker_conf` & `launch_instances`.
 
+#### (Note- You don't have to create any inventory file, it get created automatically)
+
 ## Prerequisites
 
 #### Make the private key (.pem), protected by -
