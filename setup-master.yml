@@ -1,0 +1,4 @@
+---
+- hosts: kube_master
+  roles:
+    - role: k8s_master_conf

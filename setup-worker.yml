@@ -1,0 +1,4 @@
+---
+- hosts: kube_workers
+  roles:
+    - role: k8s_worker_conf
